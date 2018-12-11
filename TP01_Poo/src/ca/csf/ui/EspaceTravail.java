@@ -14,7 +14,7 @@ import javax.swing.JComponent;
 import javax.swing.JPanel;
 import javax.swing.KeyStroke;
 
-import com.sun.glass.events.KeyEvent;
+import java.awt.event.KeyEvent;
 
 import ca.csf.formes.ElementGraphique;
 import ca.csf.modele.EcouteurModeleGraphique;

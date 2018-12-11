@@ -39,12 +39,12 @@ public class ModeleDessin implements ModeleElementGraphique {
 	/**
 	 * 
 	 */
-	private LinkedList<ElementGraphique> m_Elements = new LinkedList<ElementGraphique>();
+	private LinkedList<ElementGraphique> m_Elements;
 
 	/**
 	 * 
 	 */
-	private ArrayList<EcouteurModeleGraphique> m_Ecouteurs = new ArrayList<EcouteurModeleGraphique>();
+	private ArrayList<EcouteurModeleGraphique> m_Ecouteurs;
 
 	public ModeleDessin() {
 		this(LARGEUR_DEFAULT, HAUTEUR_DEFAULT);
